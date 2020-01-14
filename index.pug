@@ -1,0 +1,136 @@
+extend componentes/plantilla_bootstrap.pug
+block contenido
+	main#main
+		.carousel.slide.carousel-fade(data-ride="carousel" data-pause="false")#carousel
+			.carousel-inner
+				.carousel-item.active
+					<img src="images/cover01.jpg" class="d-block w-100"  alt="...">
+				.carousel-item
+					<img src="images/cover02.jpg" class="d-block w-100" alt="...">
+				.carousel-item
+					<img src="images/cover03.jpg" class="d-block w-100" alt="...">
+				.overlay
+					.container
+						.row.align-items-center
+							.col-12.col-md-6.text-center.mt-4.mt-md-0: img(src="images/eliezer.jpg" alt="")
+							.col-12.col-md-6.text-center.text-md-right.mb-04
+								h1 Ingniero civil
+								p Jefe de Obra, Inspector de Obras, Conocimiento y aplicación de las normas IRAM, ISO 9001, Código de Edificación Urbana, Manejo y conocimiento de base de datos, presupuesto, cómputos métricos, AutoCAD y Excel, Conocimientos en Análisisestructural
+
+
+	//-________________Experiencia____________________
+
+	section#experiencia.mt-4
+		.container
+			.row
+				.col.text-center.mb-4.mt-4: h2 Experiencia
+			.row
+				.col-12.col-md-6.col-lg-3.mb-4
+					<div class="card" >
+						<img src="images/experiencia02.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#experiencia01"> Saber más</button>
+					</div>
+					</div>
+				.col-12.col-md-6.col-lg-3.mb-4
+					<div class="card" >
+						<img src="images/experiencia02.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#experiencia02"> Saber más</button>
+						</div>
+					</div>
+				.col-12.col-md-6.col-lg-3.mb-4
+					<div class="card" >
+						<img src="images/experiencia02.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#experiencia03"> Saber más</button>
+						</div>
+					</div>
+				.col-12.col-md-6.col-lg-3.mb-4
+					<div class="card" >
+						<img src="images/experiencia02.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#experiencia03"> Saber más</button>
+						</div>
+					</div>
+
+
+	//-________________Estudios____________________
+	.container.mt-4
+		.row
+			.col.text-center.mb-4: h2 Estudios
+		<ul class="list-unstyled">
+			<li class="media">
+				<img src="images/eliezer.jpg" class="mr-3 images-w" alt="...">
+				<div class="media-body">
+					<h5 class="mt-0 mb-1">List-based media object</h5>
+					Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+				</div>
+			</li>
+			<li class="media my-4">
+				<img src="images/eliezer.jpg" class="mr-3 images-w" alt="...">
+				<div class="media-body">
+					<h5 class="mt-0 mb-1">List-based media object</h5>
+					Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+				</div>
+			</li>
+			<li class="media">
+				<img src="images/eliezer.jpg" class="mr-3 images-w" alt="...">
+				<div class="media-body">
+					<h5 class="mt-0 mb-1">List-based media object</h5>
+					Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+				</div>
+			</li>
+		</ul>
+
+				
+		//-________________Estudios____________________
+	section#software.mt-4.bg-light
+		.container
+			.row
+				.col.text-center.mb-4.mt-4: h2 Software utilizados
+			.row
+				.col-12.col-md-6.col-lg-3.mb-4.bg-light
+					<div class="card bg-light" >
+						<div class="card-body">
+							img(src="images/autocad.png" alt="").logo-sofware
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#experiencia01"> Saber más</button>
+						</div>
+					</div>
+				.col-12.col-md-6.col-lg-3.mb-4
+					<div class="card bg-light" >
+						<div class="card-body">
+							img(src="images/autocad.png" alt="").logo-sofware
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#experiencia01"> Saber más</button>
+						</div>
+					</div>
+				.col-12.col-md-6.col-lg-3.mb-4
+					<div class="card bg-light" >
+						<div class="card-body">
+							img(src="images/autocad.png" alt="").logo-sofware
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#experiencia01"> Saber más</button>
+						</div>
+					</div>
+				.col-12.col-md-6.col-lg-3.mb-4
+					<div class="card bg-light" >
+						<div class="card-body">
+							img(src="images/autocad.png" alt="").logo-sofware
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#experiencia01"> Saber más</button>
+						</div>
+					</div>

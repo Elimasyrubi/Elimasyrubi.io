@@ -1,0 +1,56 @@
+
+main .carousel-item img{
+    width: 100%;
+    max-height: 70vh;
+    object-fit: cover;
+}
+
+@media (max-width: 767px) { 
+    main .carousel-item img {
+      height:100%;
+      width: auto;
+    }
+}
+
+} 
+#carousel {
+    position: relative;
+}
+#carousel .overlay{
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .8);;
+    color: #fff;
+}
+#carousel .overlay .container, #carousel .overlay .row {
+    height: 100%;
+}
+#carousel .overlay img{
+    max-width: 60%;
+    border-radius: 50%;
+    
+}
+
+@media (max-width: 767px) {
+    #carousel .overlay img{
+        max-width: 70%;
+        border-radius: 50%;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        
+    }
+}
+
+.images-w{
+    height: 64px;
+    width: 64px;
+}
+
+#software img{
+    max-width: 54px;
+}

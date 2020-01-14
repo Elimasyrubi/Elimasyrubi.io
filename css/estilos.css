@@ -12,7 +12,7 @@ main .carousel-item img{
     }
 }
 
-} 
+
 #carousel {
     position: relative;
 }
@@ -37,8 +37,7 @@ main .carousel-item img{
 
 @media (max-width: 767px) {
     #carousel .overlay img{
-        max-width: 70%;
-        border-radius: 50%;
+        max-width: 45%;
         display: inline-block;
         align-items: center;
         justify-content: center;
@@ -53,4 +52,27 @@ main .carousel-item img{
 
 #software img{
     max-width: 54px;
+}
+footer{
+    height: auto;
+}
+
+footer i{
+    color: #fff;
+    margin-left: 50px;
+    font-size: 1.6rem;  
+}
+footer p{
+    text-align: center;
+    color: #fff;
+    font-size: 1.4rem;  
+}
+
+@media (min-width: 767px) {
+    footer p{
+        text-align: end;  
+    }   
+}
+footer i:hover{
+    color: rgb(196, 196, 196);
 }

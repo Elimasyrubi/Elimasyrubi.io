@@ -76,3 +76,7 @@ footer p{
 footer i:hover{
     color: rgb(196, 196, 196);
 }
+
+.fecha-empresa{
+    color: rgb(175, 175, 175);
+}

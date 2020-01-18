@@ -62,14 +62,19 @@ footer i{
     margin-left: 50px;
     font-size: 1.6rem;  
 }
-footer p{
+footer .btn-eli{
+    display:block;
+    text-decoration: none;
     text-align: center;
     color: #fff;
     font-size: 1.4rem;  
 }
+footer .btn-eli:hover{
+   color: rgb(219, 219, 219);  
+}
 
 @media (min-width: 767px) {
-    footer p{
+    footer .btn-eli{
         text-align: end;  
     }   
 }
@@ -79,4 +84,14 @@ footer i:hover{
 
 .fecha-empresa{
     color: rgb(175, 175, 175);
+}
+
+.link-estudio {
+    color: #404040;
+    text-decoration: none;
+}
+.link-estudio:hover {
+   
+    color: #880303;
+    text-decoration: none;
 }

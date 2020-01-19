@@ -95,3 +95,18 @@ footer i:hover{
     color: #880303;
     text-decoration: none;
 }
+
+/* _______________Plaza 8____________ */
+#galeria img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+}
+#galeria img:hover {
+   border: 5px solid #fff ;
+}
+#galeria .col-lg-4 {
+    margin: 0;
+    padding: 15px;
+}

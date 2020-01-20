@@ -53,25 +53,62 @@ main .carousel-item img{
 #software img{
     max-width: 54px;
 }
+
+
+ /* _____________footer_________*/
 footer{
     height: auto;
 }
+footer .container{
+   text-align: center;
+ 
+}
+
+footer h3{
+ color: #fff;
+}
+footer .icon{
+ display: flex;
+ justify-content: center;
+}
+@media (max-width: 768px) {
+    footer .icon{
+        display: block;
+     
+       }
+}
 
 footer i{
-    color: #fff;
-    margin-left: 50px;
+    margin-right: 10px;
+    color: rgb(192, 192, 192);
     font-size: 1.6rem;  
 }
-footer .btn-eli{
-    display:block;
+footer a{
+    margin-left: 40px;
+    color: rgb(192, 192, 192);
     text-decoration: none;
-    text-align: center;
-    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+footer a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+   
+}
+footer .btn-eli{
+    display:inline-block;
+    text-decoration: none;
+    color: rgb(192, 192, 192);
     font-size: 1.4rem;  
+
 }
 footer .btn-eli:hover{
-   color: rgb(219, 219, 219);  
+   color: #fff;
 }
+
+
+
+
 
 @media (min-width: 767px) {
     footer .btn-eli{
@@ -101,6 +138,7 @@ footer i:hover{
     width: 100%;
     height: auto;
     object-fit: cover;
+    border-radius: 5px;
 
 }
 #galeria img:hover {
@@ -110,3 +148,9 @@ footer i:hover{
     margin: 0;
     padding: 15px;
 }
+#galeria p {
+  margin-top: 10px;
+
+}
+
+

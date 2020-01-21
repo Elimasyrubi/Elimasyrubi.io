@@ -90,6 +90,19 @@ footer a{
     display: flex;
     justify-content: center;
 }
+@media (max-width: 768px) {
+    footer a{
+        justify-content: start;
+     
+       }
+       footer .container{
+        text-align: start;
+       }
+       footer h3 {
+        margin-left: 40px;
+       }
+}
+
 footer a:hover{
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -105,10 +118,6 @@ footer .btn-eli{
 footer .btn-eli:hover{
    color: #fff;
 }
-
-
-
-
 
 @media (min-width: 767px) {
     footer .btn-eli{
